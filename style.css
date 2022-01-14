@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+}
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px; 
+    color: #666;
+    }
+
+body{
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: #5a7233;
+}    
+.head{
+    justify-content: center;
+    margin:  70px auto;
+    background-color: #5a7233;
+    text-align: center;
+    padding: 20px 160px;
+}
+.head a{
+    font-weight: bolder;
+    font-size: 30px;
+    color: blanchedalmond;
+    margin: 20px;
+    padding: 10px;
+}
+h1 {
+    margin: 20px;
+    font-weight: 500;
+    color: #5a7233;
+    font-weight: bolder;
+}
+
+
+
+.form-box{
+    justify-content: center;
+    display: block;
+    margin:  70px auto;
+    background-color: white;
+    width: fit-content;
+    text-align: center;
+    padding: 20px 160px;
+    border-radius: 30px;
+}
+.text-box{
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 20px;
+    background: #d0dfe8;
+    text-align: center;
+
+}
+.btn{
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: none;
+    border-bottom: 4px solid #3e4f24;
+    background: #5a7233; 
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+.select-option{
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    margin: 0px 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 20px;
+    background: #d0dfe8;
+}
+.select-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-text{
+    font-weight: bolder;
+    font-size: 30px;
+    color: #5a7233;
+    margin: 20px;
+    padding: 10px;
+}
+table{
+    margin: 50px auto;
+}
+
+table, th, td {
+    table-layout: fixed;
+    padding: 8px 30px;
+}
+th{
+	color: #5a7233;
+    font-weight: bold;
+    font-size: 20px;
+}
+td{
+    font-size: 20px;
+}
+th, td {
+    border-bottom: 1px solid #5a7233;
+}
+.table-box{
+    justify-content: center;
+    display: block;
+    margin:  70px auto;
+    background-color: white;
+    width: fit-content;
+    text-align: center;
+    padding: 20px 3px;
+    border-radius: 30px;
+}
